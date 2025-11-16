@@ -7,7 +7,7 @@ public class BankAccount
     public void deposit(double amount)
     {
         Console.WriteLine($"Simulating a deposit of {amount, 0:c} to you account!!");
-        _balance = amount;
+        _balance += amount;
     }
 
     public double GetBalance()
