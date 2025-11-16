@@ -2,9 +2,9 @@
 
 public class BankAccount
 {
-    private double _balance;
+    private double _balance=0;
 
-    public void Deposit(double amount)
+    public void deposit(double amount)
     {
         Console.WriteLine($"Simulating a deposit of {amount, 0:c} to you account!!");
         _balance = amount;
